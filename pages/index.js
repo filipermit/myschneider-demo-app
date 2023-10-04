@@ -1,131 +1,96 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Head from "next/head";
+import Image from "next/image";
+import { UserButton } from "@clerk/nextjs";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const mockSupportCases = [
+	{
+		id: 1,
+		title: "Issue with Product X",
+		status: "Open",
+		createdDate: "2023-01-10",
+		lastUpdated: "2023-01-15",
+	},
+	{
+		id: 2,
+		title: "Cannot access account",
+		status: "Closed",
+		createdDate: "2023-02-05",
+		lastUpdated: "2023-02-07",
+	},
+	{
+		id: 3,
+		title: "Billing discrepancy",
+		status: "In Progress",
+		createdDate: "2023-03-12",
+		lastUpdated: "2023-03-15",
+	},
+	// ...more cases
+];
 
-      <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+const Navbar = () => (
+	<nav className="flex justify-between p-4 bg-white fixed w-full top-0">
+		<div className="flex items-center space-x-2">
+			<Image
+				src="/SE-logo.png"
+				alt="mySchneider Logo"
+				height={100}
+				width={100}
+			/>
+		</div>
+		<div className="flex items-center justify-center">
+			<UserButton afterSignOutUrl="/" />
+		</div>
+	</nav>
+);
 
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+const HomePage = () => (
+	<div className="bg-gray-200">
+		<Head>
+			<title>mySchneider</title>
+		</Head>
+		<Navbar />
+		<main className="pt-20 bg-gray-1200 min-h-screen mr-[15%] ml-[15%]">
+			<header className="mb-6">
+				<h1 className="text-2xl font-semibold pt-6">Welcome to mySchneider</h1>{" "}
+			</header>
+			<div className="flex h-full">
+				<div className="flex flex-col flex-grow">
+					<div className="bg-white m-4 p-4 h-[250px]">Products</div>
+					<div className="bg-white m-4 p-4 h-[200px]">
+						Product Configurations
+					</div>
+					<div className="bg-white m-4 p-4 h-[200px]">Project Builder</div>
+					<div className="bg-white m-4 p-4 h-[100px]">Topics for you</div>
+				</div>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+				<div className="w-1/4 bg-white m-4 h-full p-4 flex flex-col">
+					<h2 className="mb-4">Support Cases</h2>
+					{mockSupportCases.map((caseInfo) => (
+						<div
+							key={caseInfo.id}
+							className="bg-gray-100 mb-4 p-2 rounded shadow text-sm w-full"
+						>
+							<h3 className="mb-2">
+								{caseInfo.status === "Open" && "🟢 "}
+								{caseInfo.status === "Closed" && "🔴 "}
+								{caseInfo.status === "In Progress" && "🟠 "}
+								{caseInfo.title}
+							</h3>
+							<p>
+								<strong>Status:</strong> {caseInfo.status}
+							</p>
+							<p>
+								<strong>Created:</strong> {caseInfo.createdDate}
+							</p>
+							<p>
+								<strong>Last Updated:</strong> {caseInfo.lastUpdated}
+							</p>
+						</div>
+					))}
+				</div>
+			</div>
+		</main>
+	</div>
+);
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family:
-            Menlo,
-            Monaco,
-            Lucida Console,
-            Liberation Mono,
-            DejaVu Sans Mono,
-            Bitstream Vera Sans Mono,
-            Courier New,
-            monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family:
-            -apple-system,
-            BlinkMacSystemFont,
-            Segoe UI,
-            Roboto,
-            Oxygen,
-            Ubuntu,
-            Cantarell,
-            Fira Sans,
-            Droid Sans,
-            Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
-    </div>
-  );
-}
+export default HomePage;
