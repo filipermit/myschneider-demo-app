@@ -1,0 +1,542 @@
+[
+  {
+    "resource_name": "Innovation Summit",
+    "service_name": "InnovationSummit"
+  },
+  {
+    "resource_name": "Innovation Summit",
+    "service_name": "InnovationSummitV2"
+  },
+  {
+    "resource_name": "Right Rail Banners",
+    "service_name": "promotionalBanner"
+  },
+  {
+    "resource_name": "Q2C Downtime",
+    "service_name": "Alert"
+  },
+  {
+    "resource_name": "Tableau Report",
+    "service_name": "Tableau"
+  },
+  {
+    "resource_name": "Freemium Banner",
+    "service_name": "FreemiumBanner"
+  },
+  {
+    "resource_name": "SDL Content",
+    "service_name": "SDLContent"
+  },
+  {
+    "resource_name": "SDL Content Preview",
+    "service_name": "SDLContentPreview"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "ProductDatasheet"
+  },
+  {
+    "resource_name": "myDownloadCenter",
+    "service_name": "DocumentDownloadCenter"
+  },
+  {
+    "resource_name": "myDownloadCenter",
+    "service_name": "MassDownload"
+  },
+  {
+    "resource_name": "myDownloadCenter",
+    "service_name": "ImageLibrary"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "CrossReferenceTool"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "ProductSubstitution"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "CompetitorProductTool"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "EZSelector"
+  },
+  {
+    "resource_name": "myConfigurators",
+    "service_name": "ProductSelector"
+  },
+  {
+    "resource_name": "Contacts and Affaires",
+    "service_name": "SalesRepresentative"
+  },
+  {
+    "resource_name": "myConfigurators",
+    "service_name": "Configurators"
+  },
+  {
+    "resource_name": "myConfigurators",
+    "service_name": "PLCConfigurators"
+  },
+  {
+    "resource_name": "myConfigurators",
+    "service_name": "MCCConfigurators"
+  },
+  {
+    "resource_name": "myConfigurators",
+    "service_name": "VSTConfigurators"
+  },
+  {
+    "resource_name": "myPriceList",
+    "service_name": "PriceAndAvailability"
+  },
+  {
+    "resource_name": "myPriceList",
+    "service_name": "PriceAndAvailability-Light"
+  },
+  {
+    "resource_name": "myPriceList",
+    "service_name": "PricingTools"
+  },
+  {
+    "resource_name": "myOrders",
+    "service_name": "OrdersRegistration"
+  },
+  {
+    "resource_name": "myOrders",
+    "service_name": "OrdersRegistrationV2"
+  },
+  {
+    "resource_name": "myOrders",
+    "service_name": "OrdersRegistrationV3"
+  },
+  {
+    "resource_name": "myOrders",
+    "service_name": "Orders"
+  },
+  {
+    "resource_name": "myOrders",
+    "service_name": "Orders-Light"
+  },
+  {
+    "resource_name": "myOrders",
+    "service_name": "MySEOrdersOverview"
+  },
+  {
+    "resource_name": "myOrdersLeadtime",
+    "service_name": "myseMaxLeadTime"
+  },
+  {
+    "resource_name": "myOrdersLeadtime",
+    "service_name": "myseMaxLeadTime-Lite"
+  },
+  {
+    "resource_name": "myCart",
+    "service_name": "Order-Entry-V2"
+  },
+  {
+    "resource_name": "myDraftOrders",
+    "service_name": "DraftOrders"
+  },
+  {
+    "resource_name": "myContractList",
+    "service_name": "SPAs"
+  },
+  {
+    "resource_name": "myFinancialDocuments",
+    "service_name": "Invoices"
+  },
+  {
+    "resource_name": "myFinancialDocuments",
+    "service_name": "FinancialDocumentation-Light"
+  },
+  {
+    "resource_name": "myFinancial&Credit",
+    "service_name": "FinancialCredit"
+  },
+  {
+    "resource_name": "myReturns",
+    "service_name": "Returns"
+  },
+  {
+    "resource_name": "myReturns",
+    "service_name": "DraftReturns"
+  },
+  {
+    "resource_name": "myReturns",
+    "service_name": "Returns-Light"
+  },
+  {
+    "resource_name": "SAV Retours",
+    "service_name": "Returns-FR"
+  },
+  {
+    "resource_name": "SAV Retours",
+    "service_name": "Returns-FR-Light"
+  },
+  {
+    "resource_name": "mySEReturns ES",
+    "service_name": "Returns-ES"
+  },
+  {
+    "resource_name": "myDeliveries",
+    "service_name": "DeliveryNote"
+  },
+  {
+    "resource_name": "myDeliveries",
+    "service_name": "DeliveryNote-Light"
+  },
+  {
+    "resource_name": "myPowerBuild",
+    "service_name": "MySEPowerBuild"
+  },
+  {
+    "resource_name": "ServiceSelector",
+    "service_name": "ServiceSelector"
+  },
+  {
+    "resource_name": "ServiceSelectorEcoXpert",
+    "service_name": "ServiceSelectorEcoXpert"
+  },
+  {
+    "resource_name": "mySEQuotes",
+    "service_name": "MySEQuotesOverview"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "QuotesMySE"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "DraftQuotes"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "FreightQuotes"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "QuotesMySE-Light"
+  },
+  {
+    "resource_name": "linktoDigiQ",
+    "service_name": "LinktoDigiQ-Light"
+  },
+  {
+    "resource_name": "mySEPromotions",
+    "service_name": "PromotionsMySE"
+  },
+  {
+    "resource_name": "mySEPromotions",
+    "service_name": "PromotionsMySE-Light"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "QuotesSEA"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "QuotesSEADeepLink"
+  },
+  {
+    "resource_name": "myQuotes",
+    "service_name": "QuotesCPQ"
+  },
+  {
+    "resource_name": "myTrainings",
+    "service_name": "TrainingsV23"
+  },
+  {
+    "resource_name": "myTrainings v3",
+    "service_name": "TrainingsV3"
+  },
+  {
+    "resource_name": "myChannelProgram",
+    "service_name": "ProgramsV3"
+  },
+  {
+    "resource_name": "myRewards",
+    "service_name": "Rewards"
+  },
+  {
+    "resource_name": "myRewards",
+    "service_name": "RewardsV1"
+  },
+  {
+    "resource_name": "myRewards",
+    "service_name": "RewardsV2"
+  },
+  {
+    "resource_name": "myRewards",
+    "service_name": "HMIRewards"
+  },
+  {
+    "resource_name": "myRewards",
+    "service_name": "RewardsNonSalesActivities"
+  },
+  {
+    "resource_name": "myRewards",
+    "service_name": "rewardsTermsnConditions"
+  },
+  {
+    "resource_name": "myOpportunities",
+    "service_name": "Opportunities"
+  },
+  {
+    "resource_name": "ORF",
+    "service_name": "Mass-ORF"
+  },
+  {
+    "resource_name": "myCatalogue??",
+    "service_name": "AccountDocuments"
+  },
+  {
+    "resource_name": "mySoftware",
+    "service_name": "softwareLicenses"
+  },
+  {
+    "resource_name": "Customer Support",
+    "service_name": "Chat"
+  },
+  {
+    "resource_name": "myCases",
+    "service_name": "OCM-Premium"
+  },
+  {
+    "resource_name": "myCases",
+    "service_name": "OCM"
+  },
+  {
+    "resource_name": "myCases",
+    "service_name": "OCMAccountInfo"
+  },
+  {
+    "resource_name": "myCases",
+    "service_name": "OCM-CategorySelector"
+  },
+  {
+    "resource_name": "myCases",
+    "service_name": "WebCallback"
+  },
+  {
+    "resource_name": "Customer Support",
+    "service_name": "Phone"
+  },
+  {
+    "resource_name": "myFAQ",
+    "service_name": "FAQ"
+  },
+  {
+    "resource_name": "myFAQ",
+    "service_name": "FAQ-Advanced"
+  },
+  {
+    "resource_name": "Customer Support",
+    "service_name": "FAQ-Light"
+  },
+  {
+    "resource_name": "Customer Support",
+    "service_name": "ContactSupport-Light"
+  },
+  {
+    "resource_name": "myWorkorders",
+    "service_name": "ServiceVisits"
+  },
+  {
+    "resource_name": "myServiceContracts",
+    "service_name": "Contracts"
+  },
+  {
+    "resource_name": "myInstalledBase",
+    "service_name": "InstalledBase"
+  },
+  {
+    "resource_name": "myServiceOverview",
+    "service_name": "ServicesOverview"
+  },
+  {
+    "resource_name": "myConsultingServiceBanner",
+    "service_name": "ConsultingPromotionalBanner"
+  },
+  {
+    "resource_name": "myConsulting",
+    "service_name": "Consulting"
+  },
+  {
+    "resource_name": "myDigitalServices",
+    "service_name": "DigitalServices"
+  },
+  {
+    "resource_name": "myInstalledBaseLite",
+    "service_name": "IBLite"
+  },
+  {
+    "resource_name": "DigitalEntitlements",
+    "service_name": "DigitalEntitlements"
+  },
+  {
+    "resource_name": "myInsight?",
+    "service_name": "MarketoNewsletter"
+  },
+  {
+    "resource_name": "ProjectWorkspace",
+    "service_name": "ProjectWorkspace"
+  },
+  {
+    "resource_name": "ProjectWorkspace",
+    "service_name": "HelpMeChoose"
+  },
+  {
+    "resource_name": "NonDeployedBanners",
+    "service_name": "NonDeployedCountry"
+  },
+  {
+    "resource_name": "NonDeployedBanners",
+    "service_name": "NonDeployedChannel"
+  },
+  {
+    "resource_name": "APC Products",
+    "service_name": "APCProduct"
+  },
+  {
+    "resource_name": "Community",
+    "service_name": "Exchange"
+  },
+  {
+    "resource_name": "Community",
+    "service_name": "FacebookGroups"
+  },
+  {
+    "resource_name": "Digital NSS",
+    "service_name": "MedalliaSurvey"
+  },
+  {
+    "resource_name": "Internal Access",
+    "service_name": "InternalAccess"
+  },
+  {
+    "resource_name": "Internal Access",
+    "service_name": "MySERequestInternalAccess"
+  },
+  {
+    "resource_name": "Internal Access",
+    "service_name": "FSInternalAccess"
+  },
+  {
+    "resource_name": "Internal Access",
+    "service_name": "CPQInternalAccess"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "Favorites-Products"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "Favorites-Documents"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "ProductEOL"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "productFirmware"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "ProductSafetyandQuality"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "softwareLicenseExpiryNotification"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "SoftwareReleaseNotifications"
+  },
+  {
+    "resource_name": "myCatalogue",
+    "service_name": "CyberSecurityNotifications"
+  },
+  {
+    "resource_name": "myProposals",
+    "service_name": "VMI-proposal"
+  },
+  {
+    "resource_name": "CORE",
+    "service_name": "Quicklinks"
+  },
+  {
+    "resource_name": "CORE",
+    "service_name": "Twitter"
+  },
+  {
+    "resource_name": "CPQ Quotes Admin",
+    "service_name": "UserAdminCPQQuotes"
+  },
+  {
+    "resource_name": "Overview Admin Service",
+    "service_name": "OverviewAdminService"
+  },
+  {
+    "resource_name": "MySEAdmin",
+    "service_name": "UserAdminMySE"
+  },
+  {
+    "resource_name": "MySECountryAdmin",
+    "service_name": "CountryAdminMySE"
+  },
+  {
+    "resource_name": "MySEAccountAdmin",
+    "service_name": "AccountAdminMySE"
+  },
+  {
+    "resource_name": "MySEChainIDAdmin",
+    "service_name": "ChainIDAdminMySE"
+  },
+  {
+    "resource_name": "MySEEditTrackingAdmin",
+    "service_name": "EditTrackingAdminMySE"
+  },
+  {
+    "resource_name": "Translation Country AdminMySE",
+    "service_name": "TranslationCountryAdminMySE"
+  },
+  {
+    "resource_name": "Translation Global AdminMySE",
+    "service_name": "TranslationGlobalAdminMySE"
+  },
+  {
+    "resource_name": "MySE Mass Activate Deactivate Admin",
+    "service_name": "MassActivateDeactivateAdminMySE"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "TrainingsSearch"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "SDLContentSearch"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "MySEQuotesSearch"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "SearchCOSE"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "SearchCOSEv2"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "SearchCoseV2BU"
+  },
+  {
+    "resource_name": "Search",
+    "service_name": "SearchCOSEFAQ"
+  }
+]

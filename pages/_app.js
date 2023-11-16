@@ -1,10 +1,13 @@
 import { ClerkProvider } from "@clerk/nextjs";
+import { AbilityLoader } from "../utils/AbilityLoader";
 import "../styles/global.css";
 
 function MyApp({ Component, pageProps }) {
 	return (
 		<ClerkProvider {...pageProps}>
-			<Component {...pageProps} />
+			<AbilityLoader>
+				<Component {...pageProps} />
+			</AbilityLoader>
 		</ClerkProvider>
 	);
 }

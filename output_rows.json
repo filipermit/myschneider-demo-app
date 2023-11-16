@@ -1,0 +1,38 @@
+[
+  {
+    "country_code": "AD",
+    "country": "Andorra",
+    "customer_classification_level_1_code": "WD",
+    "customer_classification_level_1": "B2B Distribution"
+  },
+  {
+    "country_code": "AD",
+    "country": "Andorra",
+    "customer_classification_level_1_code": "WD-WD2",
+    "customer_classification_level_1": "B2B Distribution-Electrical & Industrial Automation Distributor"
+  },
+  {
+    "country_code": "AD",
+    "country": "Andorra",
+    "customer_classification_level_1_code": "WD-WD3",
+    "customer_classification_level_1": "B2B Distribution-IT Distributor"
+  },
+  {
+    "country_code": "AD",
+    "country": "Andorra",
+    "customer_classification_level_1_code": "WD-WD6",
+    "customer_classification_level_1": "B2B Distribution-General B2B Distributor (non-IT/non-Electrical)"
+  },
+  {
+    "country_code": "AD",
+    "country": "Andorra",
+    "customer_classification_level_1_code": "RT",
+    "customer_classification_level_1": "Consumer Retailer"
+  },
+  {
+    "country_code": "AD",
+    "country": "Andorra",
+    "customer_classification_level_1_code": "RT-RT1",
+    "customer_classification_level_1": "Consumer Retailer-DIY/ Home improvement"
+  }
+]
