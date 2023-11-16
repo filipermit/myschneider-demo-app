@@ -20,6 +20,7 @@ fs.readFile(file, "utf8", function (err, csvString) {
 			const rowsData = [];
 			const columnsData = [];
 			const apiResponseMappings = [];
+			const seenMappings = new Set();
 
 			// Start from the 5th row and iterate over each row
 			for (let i = 4; i < data.length; i++) {
@@ -46,11 +47,16 @@ fs.readFile(file, "utf8", function (err, csvString) {
 					};
 					transformedData.push(cellData);
 
-					// Extract the apiresponsemappings
+					// Extract and check for unique apiresponsemappings
 					const cellValueApiResponseMappings =
 						cellData.resource_set.cell_value.apiresponsemapping;
 					if (cellValueApiResponseMappings) {
-						apiResponseMappings.push(cellValueApiResponseMappings);
+						// Convert the mapping to a string for comparison
+						const mappingString = JSON.stringify(cellValueApiResponseMappings);
+						if (!seenMappings.has(mappingString)) {
+							apiResponseMappings.push(cellValueApiResponseMappings);
+							seenMappings.add(mappingString); // Mark this mapping as seen
+						}
 					}
 				}
 			}
