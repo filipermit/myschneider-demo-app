@@ -37,4 +37,6 @@
   "<%= adminRights.some(x=>x==='CTMGR_Edition'|| x==='CTMGR_Preview'|| x==='CTMGR_Validate' || x==='CTMGR_FlushCache' || x==='CTMGR_KeyActivation')%>",
   "<%= adminRights.some(x=>x==='GTMGR_Import'|| x==='GTMGR_Export')%>",
   "<%= adminRights.some(x=>x==='MADF') %>"
+  "<%= currentUserInfo.Profile.Name === 'Distributor Quote Specialist' %>",
+  "<%= orderManagementRights.some(eachaccount=>eachaccount.omgRights.some(x=>x==='OS' || x=== 'RA' ||x=== 'SI' || truex=== 'OE' || x=== 'DN' || x === 'SR' || x === 'DR' || x=== 'CS')) %>"
 ]
